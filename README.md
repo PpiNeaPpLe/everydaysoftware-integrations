@@ -38,6 +38,16 @@ and **Add custom MCP server**, then enter the endpoint and choose no
 authentication. Availability depends on your account and workspace policies.
 This is a manual connection, not evidence of a directory listing.
 
+For Gemini CLI, install this extension and restart Gemini CLI:
+
+```sh
+gemini extensions install https://github.com/PpiNeaPpLe/everydaysoftware-integrations
+```
+
+Then ask: "Prepare a voice-demo link for https://everydaysoftware.ai."
+The extension uses the same public endpoint and requires no API key. See the
+[Gemini CLI extension guide](https://geminicli.com/docs/extensions/) for installation details.
+
 The `openai/` folder contains a portable plugin package. `server.json` contains
 MCP Registry metadata; `gemini-extension.json` contains the Gemini CLI extension.
 Directory submission, review, and approval are separate from these files.
