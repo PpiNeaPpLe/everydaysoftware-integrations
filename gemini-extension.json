@@ -1,0 +1,11 @@
+{
+  "name": "everydaysoftware-voice-demo",
+  "version": "0.1.0",
+  "description": "Prepare a browser voice-demo link from a business website.",
+  "contextFileName": "GEMINI.md",
+  "mcpServers": {
+    "everydaysoftware-voice-demo": {
+      "httpUrl": "https://everydaysoftware.ai/mcp/voice-demo"
+    }
+  }
+}

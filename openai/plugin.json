@@ -1,0 +1,40 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "everydaysoftware-voice-demo",
+  "version": "0.1.0",
+  "description": "Prepare a browser voice-demo link from a public business website.",
+  "author": {
+    "name": "Everyday Software LLC",
+    "email": "jude@everydaysoftware.ai",
+    "url": "https://everydaysoftware.ai"
+  },
+  "homepage": "https://everydaysoftware.ai/demo-my-website",
+  "repository": "https://github.com/PpiNeaPpLe/everydaysoftware-integrations",
+  "keywords": [
+    "voice",
+    "receptionist",
+    "demo"
+  ],
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Everyday Software Voice Demo",
+        "shortDescription": "Try a receptionist for your website",
+        "longDescription": "Prepare a link to try an AI receptionist based on a public business homepage. Open the link, select Build My Demo, then Start Talking. The voice conversation takes place in your browser. This plugin does not deploy a phone agent, place calls, book appointments, or send messages. Demo conversations are reviewed by Everyday Software; any messages taken during the browser demo go to its demo team.",
+        "developerName": "Everyday Software LLC",
+        "category": "Productivity",
+        "websiteURL": "https://everydaysoftware.ai/demo-my-website",
+        "supportURL": "https://everydaysoftware.ai",
+        "privacyPolicyURL": "https://everydaysoftware.ai/privacy-policy",
+        "termsOfServiceURL": "https://everydaysoftware.ai/terms",
+        "defaultPrompt": [
+          "Help me try an AI receptionist for my business website.",
+          "Prepare a voice-demo link for https://everydaysoftware.ai."
+        ],
+        "brandColor": "#F97316",
+        "composerIcon": "./assets/icon.png",
+        "logo": "./assets/icon.png"
+      }
+    }
+  }
+}
