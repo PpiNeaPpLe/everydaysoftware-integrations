@@ -50,7 +50,10 @@ The extension uses the same public endpoint and requires no API key. See the
 
 The `openai/` folder contains a portable plugin package. `server.json` contains
 MCP Registry metadata; `gemini-extension.json` contains the Gemini CLI extension.
-Directory submission, review, and approval are separate from these files.
+Version 0.1.0 is published in the
+[official MCP Registry](https://registry.modelcontextprotocol.io/v0.1/servers/io.github.PpiNeaPpLe%2Feverydaysoftware-voice-demo/versions/0.1.0).
+This registry entry is separate from approval or listing in ChatGPT or other
+client directories.
 
 [Try the demo](https://everydaysoftware.ai/demo-my-website) ·
 [Privacy](https://everydaysoftware.ai/privacy-policy) ·
